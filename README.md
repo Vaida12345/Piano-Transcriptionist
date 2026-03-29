@@ -8,3 +8,7 @@
 Please download the app on [AppStore](https://apps.apple.com/au/app/piano-transcriptionist/id6456886504).
 
 You can also find all history macOS versions in [Releases](https://github.com/Vaida12345/Piano-Transcriptionist/releases).
+
+## Issues
+
+This repo is primarily used to keep track of issues, please [check here](https://github.com/Vaida12345/Piano-Transcriptionist/issues).
