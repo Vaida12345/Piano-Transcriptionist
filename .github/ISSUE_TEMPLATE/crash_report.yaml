@@ -49,7 +49,7 @@ body:
     validations:
       required: false
   - type: upload
-    id: files
+    id: crash-logs
     attributes:
       label: Crash Log
       description: Please also attach the crash log so we can pinpoint the exact issue. Please find the crash log in Console app, Crash Report > Piano Transcriptionist, right-click to reveal in Finder.
