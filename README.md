@@ -3,6 +3,8 @@
   <img src="https://github.com/user-attachments/assets/bce28928-14fa-4a0d-8193-884ba9541577" alt="Banner" width="200"/>
 </p>
 
+Piano Transcriptionist turns existing piano recordings into editable MIDI and clean piano sheet music, directly on your device.
+
 ## Releases
 
 Please download the app on [AppStore](https://apps.apple.com/au/app/piano-transcriptionist/id6456886504).
