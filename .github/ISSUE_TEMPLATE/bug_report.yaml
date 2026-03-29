@@ -11,7 +11,7 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report! If the app crashed, please use [this template]().
-   - type: dropdown
+  - type: dropdown
     id: feature
     attributes:
       label: Feature
