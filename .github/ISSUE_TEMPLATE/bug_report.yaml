@@ -24,7 +24,7 @@ body:
         - Importing MusicXML File
         - Translation
         - Other
-      default: Select
+      default: 0
     validations:
       required: true
   - type: textarea
