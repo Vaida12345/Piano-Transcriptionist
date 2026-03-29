@@ -1,0 +1,57 @@
+name: Crash Report
+description: File a crash report.
+title: "[Crash]: "
+labels: ["bug", "triage", "crash"]
+projects: []
+assignees:
+  - Vaida12345
+body:
+  - type: markdown
+    attributes:
+      value: |
+        I'm sorry that the app crashed. Thanks for taking the time to fill out this crash report!
+  - type: dropdown
+    id: feature
+    attributes:
+      label: Feature
+      description: Which area are you seeing an issue with?
+      options:
+        - MIDI Conversion
+        - MIDI Workspace
+        - Piano Roll
+        - Creating new Engraving Document
+        - Editing Engraving Document
+        - Importing MusicXML File
+        - Other
+      default: 0
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Please provide us with exactly what you did so we can reproduce it.
+      value: "I droped the attached file, and the app crashed."
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: What version of our software are you running? You can Find it in Piano Transcriptionist > About Transcriptionist
+    validations:
+      required: true
+  - type: upload
+    id: files
+    attributes:
+      label: Upload files
+      description: If applicable, add relavent files. You can [encrypt your file](https://github.com/Vaida12345/Piano-Transcriptionist/releases/tag/public-key) to ensure no-one else can read it.
+    validations:
+      required: false
+  - type: upload
+    id: files
+    attributes:
+      label: Crash Log
+      description: Please also attach the crash log so we can pinpoint the exact issue. Please find the crash log in Console app, Crash Report > Piano Transcriptionist, right-click to reveal in Finder.
+    validations:
+      required: false
