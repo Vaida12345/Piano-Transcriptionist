@@ -5,7 +5,6 @@ labels: ["bug", "triage"]
 projects: []
 assignees:
   - Vaida12345
-type: bug
 body:
   - type: markdown
     attributes:
