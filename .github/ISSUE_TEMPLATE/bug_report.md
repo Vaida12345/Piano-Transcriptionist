@@ -4,7 +4,22 @@ about: Create a report to help us improve
 title: ''
 labels: ''
 assignees: ''
-
+body:
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      description: Select the priority of the issue
+      options:
+        - High
+        - Medium
+        - Low
+      default: Medium
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: Describe how to reproduce the bug
 ---
 
 **Describe the bug**
