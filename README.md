@@ -5,4 +5,6 @@
 
 ## Releases
 
-Please find all history versions in [Releases](https://github.com/Vaida12345/Piano-Transcriptionist/releases).
+Please download the app on [AppStore](https://apps.apple.com/au/app/piano-transcriptionist/id6456886504).
+
+You can also find all history macOS versions in [Releases](https://github.com/Vaida12345/Piano-Transcriptionist/releases).
