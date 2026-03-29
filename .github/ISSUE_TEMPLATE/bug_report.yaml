@@ -22,6 +22,7 @@ body:
         - Creating new Engraving Document
         - Editing Engraving Document
         - Importing MusicXML File
+        - Translation
         - Other
       default: 0
     validations:
