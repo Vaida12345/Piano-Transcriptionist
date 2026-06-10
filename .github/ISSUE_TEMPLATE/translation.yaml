@@ -10,7 +10,7 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this report to help us improve localiozation!
- - type: upload
+  - type: upload
     id: screenshots
     attributes:
       label: Upload screenshot of the text
