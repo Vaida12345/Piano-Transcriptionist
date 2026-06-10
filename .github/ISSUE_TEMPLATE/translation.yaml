@@ -1,0 +1,33 @@
+name: Translation Improvement
+description: Suggest a better translation.
+title: "[Translation]: "
+labels: ["translation", "triage"]
+projects: []
+assignees:
+  - Vaida12345
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this report to help us improve localiozation!
+ - type: upload
+    id: screenshots
+    attributes:
+      label: Upload screenshot of the text
+      description: Please upload a screenshot to help us locate the text.
+    validations:
+      required: false
+  - type: input
+    id: current-value
+    attributes:
+      label: What is the current phrase?
+      placeholder: Tell us what you see!
+    validations:
+      required: true
+  - type: input
+    id: suggested-value
+    attributes:
+      label: How should it be translated?
+      description: What is your suggestion?
+    validations:
+      required: true
