@@ -21,7 +21,7 @@ body:
     id: current-value
     attributes:
       label: What is the current phrase?
-      placeholder: Tell us what you see!
+      description: Tell us what you see
     validations:
       required: true
   - type: input
