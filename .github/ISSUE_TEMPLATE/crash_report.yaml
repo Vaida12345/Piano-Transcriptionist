@@ -16,12 +16,13 @@ body:
       label: Feature
       description: Which area are you seeing an issue with?
       options:
-        - MIDI Conversion
-        - MIDI Workspace
+        - Transcription
+        - MIDI Editor
         - Piano Roll
         - Creating new Engraving Document
         - Editing Engraving Document
         - Importing MusicXML File
+        - Score Follower
         - Other
       default: 0
     validations:
