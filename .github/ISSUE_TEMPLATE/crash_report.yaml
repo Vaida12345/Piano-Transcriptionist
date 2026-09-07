@@ -41,6 +41,10 @@ body:
       description: What version of our software are you running? You can Find it in Piano Transcriptionist > About Transcriptionist
     validations:
       required: true
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: Any additional info you would like us to know?
   - type: upload
     id: files
     attributes:
