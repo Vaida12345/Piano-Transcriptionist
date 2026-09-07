@@ -16,12 +16,13 @@ body:
       label: Feature
       description: Which area are you seeing an issue with?
       options:
-        - MIDI Conversion
-        - MIDI Workspace
+        - Transcription
+        - MIDI Editor
         - Piano Roll
         - Creating new Engraving Document
         - Editing Engraving Document
         - Importing MusicXML File
+        - Score Follower
         - Other
       default: 0
     validations:
@@ -41,6 +42,10 @@ body:
       description: What version of our software are you running? You can Find it in Piano Transcriptionist > About Transcriptionist
     validations:
       required: true
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: Any additional info you would like us to know?
   - type: upload
     id: screenshots
     attributes:
